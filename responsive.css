@@ -1,4 +1,3 @@
-
 @media (max-width: 768px) {
     html {
         font-size: 55%;
@@ -56,13 +55,13 @@
         text-align: center;
         flex-flow: column-reverse;
         padding: 8rem 0;
-        padding-top: 10rem;
+        padding-top: 5rem;
     }
 
     .home img {
         height: 25rem;
         width: 25rem;
-        margin-top: 2rem;
+        margin-top: 0rem;
     }
 
     .home .content {
@@ -134,5 +133,28 @@
     .text-animation {
         min-width: unset;
         font-size: 1.6rem;
+    }
+}
+
+@media(max-width:990px) {
+    html {
+        font-size: 55.5%;
+    }
+
+    .home {
+        flex-flow: column-reverse;
+        padding: 8rem 0;
+        padding-top: 10rem;
+        text-align: center;
+    }
+
+
+    .home .content {
+        align-items: center;
+    }
+
+    .home .content p {
+        width: 100%;
+        padding: 0 1rem;
     }
 }
