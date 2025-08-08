@@ -56,6 +56,7 @@
         flex-flow: column-reverse;
         padding: 8rem 0;
         padding-top: 5rem;
+        min-height: 100vh;
     }
 
     .home img {
@@ -146,6 +147,25 @@
         padding: 8rem 0;
         padding-top: 10rem;
         text-align: center;
+        min-height: 70vh;
+    }
+    .education{
+        min-height: 50vh;
+    }
+    .experience{
+        min-height: 50vh;
+    }
+    .skills{
+        min-height: 50vh;
+    }
+    .projects{
+        min-height: 50vh;
+    }
+    .achieve{
+        min-height: 50vh;
+    }
+    .contact{
+        min-height: 50vh;
     }
 
 
@@ -157,4 +177,37 @@
         width: 100%;
         padding: 0 1rem;
     }
+}
+
+@media(max-width:1050px) {
+    html {
+        font-size: 55.5%;
+    }
+    .home{
+        min-height: 50vh;
+    }
+    
+    .home img {
+        margin-right: 2rem;
+    }
+
+    .education{
+        min-height: 50vh;
+    }
+    .experience{
+        min-height: 50vh;
+    }
+    .skills{
+        min-height: 50vh;
+    }
+    .projects{
+        min-height: 50vh;
+    }
+    .achieve{
+        min-height: 50vh;
+    }
+    .contact{
+        min-height: 50vh;
+    }
+
 }
